@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Color settings.
  * Настройки цветов.
  */
@@ -285,7 +285,9 @@
     "tdb": [
       { "value": 500,  "color": ${"def.colorRating.very_bad" } },
       { "value": 1000, "color": ${"def.colorRating.normal"   } },
-      { "value": 2000, "color": ${"def.colorRating.good"     } }
+      { "value": 1800, "color": ${"def.colorRating.good"     } },
+      { "value": 2500, "color": ${"def.colorRating.very_good"} },
+      { "value": 3000, "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by average damage efficiency on current tank
     // Динамический цвет по эффективности урона за бой на текущем танке
@@ -307,7 +309,7 @@
       { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
       { "value": 15,   "color": ${"def.colorRating.unique"   } }
     ],
-    // Dynamic color by average of spotted enemies per battle on current tank
+    // Dynamic color by average number of spotted enemies per battle on current tank 
     // Динамический цвет по среднему количеству засвеченных врагов за бой на текущем танке
     "tsb": [
       { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },

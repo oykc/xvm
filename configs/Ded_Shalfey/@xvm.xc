@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Main configuration file (hereinafter - the configuration).
  *
  * Attention! You must NOT use the percent symbol in configuration files.
@@ -54,7 +54,7 @@
 
     // Config description.
     // Описание конфига.
-    "description": "Version 9.2 beta3.4",
+    "description": "Version 9.2 beta3.5",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "09.10.2013",
+    "date": "10.10.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -83,7 +83,7 @@
 
   // Parameters for userinfo window.
   // Параметры окна достижений.
-  "userInfo": ${"hangar.xc":"userInfo"},
+  "userInfo": ${"userInfo.xc":"userInfo"},
 
   // General parameters for the battle interface.
   // Общие параметры боевого интерфейса.
