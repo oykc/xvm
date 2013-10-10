@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Main configuration file (hereinafter - the configuration).
  *
  * Attention! You must NOT use the percent symbol in configuration files.
