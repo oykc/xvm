@@ -218,4 +218,6 @@ doc/
 mods/
 res/clanicons/
 res/contour/
+res/Ded_Shalfey/fonts/
+*.ttf
 release/
