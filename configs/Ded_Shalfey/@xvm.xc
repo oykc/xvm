@@ -4,7 +4,7 @@
  * Attention! You must NOT use the percent symbol in configuration files.
  * Instead, the percent symbol should be written: \u0025
  * Use \n as newline character instead of <br> tag
- *
+ *           
  * --------------------------------------------------------------------------
  * Esli vy vidite nizhe bessmyslennyj nabor simvolov - smenite kodirovku
  * na UTF8+BOM
