@@ -18,10 +18,10 @@
  
  
  
- var codesite_token = "b9L0AOaROO4gScguQ8U3d_dPUls:1381422687539";
+ var codesite_token = "IP57B5jJYGsFQHf3S_MXcLVUwng:1381422650552";
  
  
- var CS_env = {"loggedInUserEmail":"Ded.Shalfey86@gmail.com","projectName":"wot-xvm","profileUrl":"/u/112245915657078372680/","projectHomeUrl":"/p/wot-xvm","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/9670661675484913303","relativeBaseUrl":"","assetHostPath":"https://ssl.gstatic.com/codesite/ph","domainName":null,"token":"b9L0AOaROO4gScguQ8U3d_dPUls:1381422687539"};
+ var CS_env = {"projectName":"wot-xvm","loggedInUserEmail":"Ded.Shalfey86@gmail.com","token":"IP57B5jJYGsFQHf3S_MXcLVUwng:1381422650552","projectHomeUrl":"/p/wot-xvm","profileUrl":"/u/112245915657078372680/","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/9670661675484913303","assetHostPath":"https://ssl.gstatic.com/codesite/ph","domainName":null,"relativeBaseUrl":""};
  var _gaq = _gaq || [];
  _gaq.push(
  ['siteTracker._setAccount', 'UA-18071-1'],
@@ -40,7 +40,7 @@
  </script>
  
  
- <title>de.xc - 
+ <title>sk.xc - 
  wot-xvm -
  
  
@@ -153,7 +153,7 @@
  | <a href="/u/112245915657078372680/" onclick="_CS_click('/gb/ph/profile');"
  title="Profile, Updates, and Settings"
  ><u>Profile</u></a>
- | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Fwot-xvm%2Fsource%2Fbrowse%2Ftrunk%2Frelease%2Fl10n%2Fde.xc" 
+ | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Fwot-xvm%2Fsource%2Fbrowse%2Ftrunk%2Frelease%2Fl10n%2Fsk.xc" 
  onclick="_CS_click('/gb/ph/signout');"
  ><u>Sign out</u></a>
  
@@ -330,7 +330,7 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
  <span id="crumb_root">
  
  <a href="/p/wot-xvm/source/browse/">svn</a>/&nbsp;</span>
- <span id="crumb_links" class="ifClosed"><a href="/p/wot-xvm/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span><a href="/p/wot-xvm/source/browse/trunk/release/">release</a><span class="sp">/&nbsp;</span><a href="/p/wot-xvm/source/browse/trunk/release/l10n/">l10n</a><span class="sp">/&nbsp;</span>de.xc</span>
+ <span id="crumb_links" class="ifClosed"><a href="/p/wot-xvm/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span><a href="/p/wot-xvm/source/browse/trunk/release/">release</a><span class="sp">/&nbsp;</span><a href="/p/wot-xvm/source/browse/trunk/release/l10n/">l10n</a><span class="sp">/&nbsp;</span>sk.xc</span>
  
  
 
@@ -341,14 +341,6 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
  <td nowrap="nowrap" width="33%" align="right">
  <table cellpadding="0" cellspacing="0" style="font-size: 100%"><tr>
  
- 
- <td class="flipper">
- <ul class="leftside">
- 
- <li><a href="/p/wot-xvm/source/browse/trunk/release/l10n/de.xc?r=2683" title="Previous">&lsaquo;r2683</a></li>
- 
- </ul>
- </td>
  
  <td class="flipper"><b>r2817</b></td>
  
@@ -662,11 +654,11 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
 <pre ><table id="src_table_0"><tr
 id=sl_svn2817_1
 
-><td class="source">﻿/**<br></td></tr
+><td class="source">/**<br></td></tr
 ><tr
 id=sl_svn2817_2
 
-><td class="source"> * German translation file.<br></td></tr
+><td class="source"> * Slovak translation file. Set &quot;language&quot;: &quot;sk&quot; in @xvm.xc<br></td></tr
 ><tr
 id=sl_svn2817_3
 
@@ -686,7 +678,7 @@ id=sl_svn2817_6
 ><tr
 id=sl_svn2817_7
 
-><td class="source">    &quot;XVM_translator&quot;: &quot;diclovit&quot;,<br></td></tr
+><td class="source">    &quot;XVM_translator&quot;: &quot;relic242&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_8
 
@@ -698,7 +690,7 @@ id=sl_svn2817_9
 ><tr
 id=sl_svn2817_10
 
-><td class="source">    &quot;Initialization&quot;: &quot;Initialisierung&quot;,<br></td></tr
+><td class="source">    &quot;Initialization&quot;: &quot;Načítanie&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_11
 
@@ -710,7 +702,7 @@ id=sl_svn2817_12
 ><tr
 id=sl_svn2817_13
 
-><td class="source">    &quot;New version available&quot;: &quot;Neue Version verfügbar&quot;,<br></td></tr
+><td class="source">    &quot;New version available&quot;: &quot;Existuje nová verzia na stiahnutie&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_14
 
@@ -722,27 +714,27 @@ id=sl_svn2817_15
 ><tr
 id=sl_svn2817_16
 
-><td class="source">    &quot;Chance error&quot;: &quot;Fehler bei Berechnung der Siegchance&quot;,<br></td></tr
+><td class="source">    &quot;Chance error&quot;: &quot;Chyba&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_17
 
-><td class="source">    &quot;Chance to win&quot;: &quot;Siegchance&quot;,<br></td></tr
+><td class="source">    &quot;Chance to win&quot;: &quot;Šanca na výhru&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_18
 
-><td class="source">    &quot;global&quot;: &quot;Global&quot;,<br></td></tr
+><td class="source">    &quot;global&quot;: &quot;celková&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_19
 
-><td class="source">    &quot;per-vehicle&quot;: &quot;pro Fahrzeug&quot;,<br></td></tr
+><td class="source">    &quot;per-vehicle&quot;: &quot;podľa vozidiel&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_20
 
-><td class="source">    &quot;chanceExperimental&quot;: &quot;exp.&quot;,<br></td></tr
+><td class="source">    &quot;chanceExperimental&quot;: &quot;experimentálne&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_21
 
-><td class="source">    &quot;chanceBattleTier&quot;: &quot;Stufe&quot;,    <br></td></tr
+><td class="source">    &quot;chanceBattleTier&quot;: &quot;T&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_22
 
@@ -754,31 +746,31 @@ id=sl_svn2817_23
 ><tr
 id=sl_svn2817_24
 
-><td class="source">    &quot;attack&quot;: &quot;Angriff&quot;,<br></td></tr
+><td class="source">    &quot;attack&quot;: &quot;streľba&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_25
 
-><td class="source">    &quot;fire&quot;: &quot;Feuer&quot;,<br></td></tr
+><td class="source">    &quot;fire&quot;: &quot;požiar&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_26
 
-><td class="source">    &quot;ramming&quot;: &quot;Rammen&quot;,<br></td></tr
+><td class="source">    &quot;ramming&quot;: &quot;náraz&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_27
 
-><td class="source">    &quot;world_collision&quot;: &quot;Aufprall&quot;,<br></td></tr
+><td class="source">    &quot;world_collision&quot;: &quot;pádom&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_28
 
-><td class="source">    &quot;Hits&quot;: &quot;Treffer&quot;,<br></td></tr
+><td class="source">    &quot;Hits&quot;: &quot;Zásahov&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_29
 
-><td class="source">    &quot;Total&quot;: &quot;Gesamt&quot;,<br></td></tr
+><td class="source">    &quot;Total&quot;: &quot;Celkovo&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_30
 
-><td class="source">    &quot;Last&quot;: &quot;Zuletzt&quot;,<br></td></tr
+><td class="source">    &quot;Last&quot;: &quot;Posledný&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_31
 
@@ -790,7 +782,7 @@ id=sl_svn2817_32
 ><tr
 id=sl_svn2817_33
 
-><td class="source">    &quot;hpLeftTitle&quot;: &quot;Verbleibende Trefferpunkte:&quot;,<br></td></tr
+><td class="source">    &quot;hpLeftTitle&quot;: &quot;Zostávajúce HP:&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_34
 
@@ -802,27 +794,27 @@ id=sl_svn2817_35
 ><tr
 id=sl_svn2817_36
 
-><td class="source">    &quot;enemyBaseCapture&quot;: &quot;Feindliche Basis wird erobert!&quot;,<br></td></tr
+><td class="source">    &quot;enemyBaseCapture&quot;: &quot;Obsadzovanie nepriateľskej základne!&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_37
 
-><td class="source">    &quot;enemyBaseCaptured&quot;: &quot;Feindliche Basis wurde erobert!&quot;,<br></td></tr
+><td class="source">    &quot;enemyBaseCaptured&quot;: &quot;Nepriateľská základňa bola obsadená!&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_38
 
-><td class="source">    &quot;allyBaseCapture&quot;: &quot;Eigene Basis wird eingenommen!&quot;,<br></td></tr
+><td class="source">    &quot;allyBaseCapture&quot;: &quot;Obsadzovanie spojeneckej základne!&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_39
 
-><td class="source">    &quot;allyBaseCaptured&quot;: &quot;Eigene Basis verloren!&quot;,<br></td></tr
+><td class="source">    &quot;allyBaseCaptured&quot;: &quot;Spojenecká základňa bola obsadená!&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_40
 
-><td class="source">    &quot;Timeleft&quot;: &quot;Verbleibende Zeit&quot;,<br></td></tr
+><td class="source">    &quot;Timeleft&quot;: &quot;Čas&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_41
 
-><td class="source">    &quot;Capturers&quot;: &quot;Panzer&quot;,<br></td></tr
+><td class="source">    &quot;Capturers&quot;: &quot;Tankov&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_42
 
@@ -834,11 +826,11 @@ id=sl_svn2817_43
 ><tr
 id=sl_svn2817_44
 
-><td class="source">    &quot;Hit percent&quot;: &quot;Trefferquote&quot;,<br></td></tr
+><td class="source">    &quot;Hit percent&quot;: &quot;Zásahov / Výstrelov \u0025&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_45
 
-><td class="source">    &quot;Damage (assisted / own)&quot;: &quot;Schaden (Aufklärung / Verursacht)&quot;,<br></td></tr
+><td class="source">    &quot;Damage (assisted / own)&quot;: &quot;Poškodenie (s pomocou / vlastné)&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_46
 
@@ -846,35 +838,35 @@ id=sl_svn2817_46
 ><tr
 id=sl_svn2817_47
 
-><td class="source">    // TeamRenderers<br></td></tr
+><td class="source">    // TeamRenderer<br></td></tr
 ><tr
 id=sl_svn2817_48
 
-><td class="source">    &quot;Friend&quot;: &quot;Freund&quot;,<br></td></tr
+><td class="source">    &quot;Friend&quot;: &quot;Priateľ&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_49
 
-><td class="source">    &quot;Ignored&quot;: &quot;Ignoriert&quot;,<br></td></tr
+><td class="source">    &quot;Ignored&quot;: &quot;Ignorovaný&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_50
 
-><td class="source">    &quot;unknown&quot;: &quot;unbekannt&quot;,<br></td></tr
+><td class="source">    &quot;unknown&quot;: &quot;-&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_51
 
-><td class="source">    &quot;Fights&quot;: &quot;Gefechte&quot;,<br></td></tr
+><td class="source">    &quot;Fights&quot;: &quot;Bitiek&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_52
 
-><td class="source">    &quot;Wins&quot;: &quot;Siege&quot;,<br></td></tr
+><td class="source">    &quot;Wins&quot;: &quot;Výhier&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_53
 
-><td class="source">    &quot;Data was updated at&quot;: &quot;Daten aktualisiert am&quot;,<br></td></tr
+><td class="source">    &quot;Data was updated at&quot;: &quot;Data boli aktualizované o&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_54
 
-><td class="source">    &quot;Load statistics&quot;: &quot;Lade Statistiken&quot;,<br></td></tr
+><td class="source">    &quot;Load statistics&quot;: &quot;Načítať štatistiky&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_55
 
@@ -886,11 +878,11 @@ id=sl_svn2817_56
 ><tr
 id=sl_svn2817_57
 
-><td class="source">    &quot;Summary&quot;: &quot;Zusammenfassung&quot;,<br></td></tr
+><td class="source">    &quot;Summary&quot;: &quot;Celkový prehľad&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_58
 
-><td class="source">    &quot;Avg level&quot;: &quot;Ø-Stufe&quot;,<br></td></tr
+><td class="source">    &quot;Avg level&quot;: &quot;Priem. tier&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_59
 
@@ -902,35 +894,35 @@ id=sl_svn2817_60
 ><tr
 id=sl_svn2817_61
 
-><td class="source">    &quot;updated&quot;: &quot;aktualisiert&quot;,<br></td></tr
+><td class="source">    &quot;updated&quot;: &quot;aktualizované&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_62
 
-><td class="source">    &quot; to &quot;: &quot; zu &quot;,<br></td></tr
+><td class="source">    &quot; to &quot;: &quot; do &quot;,<br></td></tr
 ><tr
 id=sl_svn2817_63
 
-><td class="source">    &quot;avg&quot;: &quot;Ø&quot;,<br></td></tr
+><td class="source">    &quot;avg&quot;: &quot;priem&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_64
 
-><td class="source">    &quot;top&quot;: &quot;Max.&quot;,<br></td></tr
+><td class="source">    &quot;top&quot;: &quot;naj&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_65
 
-><td class="source">    &quot;draws&quot;: &quot;Unents.&quot;,<br></td></tr
+><td class="source">    &quot;draws&quot;: &quot;remízy&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_66
 
-><td class="source">    &quot;Specific damage (Avg dmg / HP)&quot;: &quot;Verhältnis Ø-Schaden/Lebenspunkte&quot;,<br></td></tr
+><td class="source">    &quot;Specific damage (Avg dmg / HP)&quot;: &quot;Pomer poškodenia (priem / HP)&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_67
 
-><td class="source">    &quot;Capture points&quot;: &quot;Eroberungs Punkte&quot;,<br></td></tr
+><td class="source">    &quot;Capture points&quot;: &quot;Obsadenie&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_68
 
-><td class="source">    &quot;Defence points&quot;: &quot;Verteidigungs Punkte&quot;,<br></td></tr
+><td class="source">    &quot;Defence points&quot;: &quot;Obrana&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_69
 
@@ -946,15 +938,15 @@ id=sl_svn2817_71
 ><tr
 id=sl_svn2817_72
 
-><td class="source">    &quot;PutOwnCrew&quot;: &quot;Eingewiesene Besatzung einsetzen&quot;,<br></td></tr
+><td class="source">    &quot;PutOwnCrew&quot;: &quot;Použiť vlastnú posádku&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_73
 
-><td class="source">    &quot;PutBestCrew&quot;: &quot;Beste Besatzung einsetzen&quot;,<br></td></tr
+><td class="source">    &quot;PutBestCrew&quot;: &quot;Použiť nejlepšiu posádku&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_74
 
-><td class="source">    &quot;PutClassCrew&quot;: &quot;Besatzung selber Fahrzeugklasse einsetzen&quot;,<br></td></tr
+><td class="source">    &quot;PutClassCrew&quot;: &quot;Použít posádku rovnakého typu&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_75
 
@@ -966,19 +958,19 @@ id=sl_svn2817_76
 ><tr
 id=sl_svn2817_77
 
-><td class="source">    &quot;Vehicle&quot;: &quot;Fahrzeug&quot;,<br></td></tr
+><td class="source">    &quot;Vehicle&quot;: &quot;Vozidlo&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_78
 
-><td class="source">    &quot;Battle tiers&quot;: &quot;Gefechtsstufen&quot;,<br></td></tr
+><td class="source">    &quot;Battle tiers&quot;: &quot;MM&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_79
 
-><td class="source">    &quot;ussr&quot;: &quot;UdSSR&quot;,<br></td></tr
+><td class="source">    &quot;ussr&quot;: &quot;ZSSR&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_80
 
-><td class="source">    &quot;germany&quot;: &quot;Deutschland&quot;,<br></td></tr
+><td class="source">    &quot;germany&quot;: &quot;Nemecko&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_81
 
@@ -986,39 +978,39 @@ id=sl_svn2817_81
 ><tr
 id=sl_svn2817_82
 
-><td class="source">    &quot;france&quot;: &quot;Frankreich&quot;,<br></td></tr
+><td class="source">    &quot;france&quot;: &quot;Francúzsko&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_83
 
-><td class="source">    &quot;uk&quot;: &quot;Großbritannien&quot;,<br></td></tr
+><td class="source">    &quot;uk&quot;: &quot;Anglicko&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_84
 
-><td class="source">    &quot;china&quot;: &quot;China&quot;,<br></td></tr
+><td class="source">    &quot;china&quot;: &quot;Čína&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_85
 
-><td class="source">    &quot;japan&quot;: &quot;Japan&quot;,<br></td></tr
+><td class="source">    &quot;japan&quot;: &quot;Japonsko&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_86
 
-><td class="source">    &quot;HT&quot;: &quot;SP&quot;,<br></td></tr
+><td class="source">    &quot;HT&quot;: &quot;Ťažký tank&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_87
 
-><td class="source">    &quot;MT&quot;: &quot;MP&quot;,<br></td></tr
+><td class="source">    &quot;MT&quot;: &quot;Stredný tank&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_88
 
-><td class="source">    &quot;LT&quot;: &quot;LP&quot;,<br></td></tr
+><td class="source">    &quot;LT&quot;: &quot;Ľahký tank&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_89
 
-><td class="source">    &quot;TD&quot;: &quot;JP&quot;,<br></td></tr
+><td class="source">    &quot;TD&quot;: &quot;Stíhač tankov&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_90
 
-><td class="source">    &quot;SPG&quot;: &quot;SFL&quot;,<br></td></tr
+><td class="source">    &quot;SPG&quot;: &quot;Delostrelectvo&quot;,<br></td></tr
 ><tr
 id=sl_svn2817_91
 
@@ -1030,7 +1022,7 @@ id=sl_svn2817_92
 ><tr
 id=sl_svn2817_93
 
-><td class="source">    &quot;blownUp&quot;: &quot;Munitionsexplosion!&quot;<br></td></tr
+><td class="source">    &quot;blownUp&quot;: &quot;Munícia!&quot;<br></td></tr
 ><tr
 id=sl_svn2817_94
 
@@ -1156,12 +1148,12 @@ id=sl_svn2817_95
  <div id="changelog">
  <p>Change log</p>
  <div>
- <a href="/p/wot-xvm/source/detail?spec=svn2817&amp;r=2816">r2816</a>
+ <a href="/p/wot-xvm/source/detail?spec=svn2817&amp;r=2814">r2814</a>
  by pavlushko.m
- on Today (15 minutes ago)
- &nbsp; <a href="/p/wot-xvm/source/diff?spec=svn2817&r=2816&amp;format=side&amp;path=/trunk/release/l10n/de.xc&amp;old_path=/trunk/release/l10n/de.xc&amp;old=2683">Diff</a>
+ on Today (94 minutes ago)
+ &nbsp; <a href="/p/wot-xvm/source/diff?spec=svn2817&r=2814&amp;format=side&amp;path=/trunk/release/l10n/sk.xc&amp;old_path=/trunk/release/l10n/sk.xc&amp;old=">Diff</a>
  </div>
- <pre>l10n: update de</pre>
+ <pre>l10n: add sk</pre>
  </div>
  
  
@@ -1170,16 +1162,16 @@ id=sl_svn2817_95
  
  
  <script type="text/javascript">
- var detail_url = '/p/wot-xvm/source/detail?r=2816&spec=svn2817';
- var publish_url = '/p/wot-xvm/source/detail?r=2816&spec=svn2817#publish';
+ var detail_url = '/p/wot-xvm/source/detail?r=2814&spec=svn2817';
+ var publish_url = '/p/wot-xvm/source/detail?r=2814&spec=svn2817#publish';
  // describe the paths of this revision in javascript.
  var changed_paths = [];
  var changed_urls = [];
  
- changed_paths.push('/trunk/release/l10n/de.xc');
- changed_urls.push('/p/wot-xvm/source/browse/trunk/release/l10n/de.xc?r\x3d2816\x26spec\x3dsvn2817');
+ changed_paths.push('/trunk/release/l10n/sk.xc');
+ changed_urls.push('/p/wot-xvm/source/browse/trunk/release/l10n/sk.xc?r\x3d2814\x26spec\x3dsvn2817');
  
- var selected_path = '/trunk/release/l10n/de.xc';
+ var selected_path = '/trunk/release/l10n/sk.xc';
  
  
  function getCurrentPageIndex() {
@@ -1243,9 +1235,9 @@ id=sl_svn2817_95
  <table><tr><td>Go to:&nbsp;</td><td>
  <select name="files_in_rev" onchange="window.location=this.value">
  
- <option value="/p/wot-xvm/source/browse/trunk/release/l10n/de.xc?r=2816&amp;spec=svn2817"
+ <option value="/p/wot-xvm/source/browse/trunk/release/l10n/sk.xc?r=2814&amp;spec=svn2817"
  selected="selected"
- >/trunk/release/l10n/de.xc</option>
+ >/trunk/release/l10n/sk.xc</option>
  
  </select>
  </td></tr></table>
@@ -1272,44 +1264,7 @@ id=sl_svn2817_95
  <div id="older_bubble">
  <p>Older revisions</p>
  
- 
- <div class="closed" style="margin-bottom:3px;" >
- <a class="ifClosed" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/plus.gif" ></a>
- <a class="ifOpened" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/minus.gif" ></a>
- <a href="/p/wot-xvm/source/detail?spec=svn2817&r=2683">r2683</a>
- by pavlushko.m
- on Sep 22, 2013
- &nbsp; <a href="/p/wot-xvm/source/diff?spec=svn2817&r=2683&amp;format=side&amp;path=/trunk/release/l10n/de.xc&amp;old_path=/trunk/release/l10n/de.xc&amp;old=2676">Diff</a>
- <br>
- <pre class="ifOpened">l10n: Update es. Fix de.</pre>
- </div>
- 
- <div class="closed" style="margin-bottom:3px;" >
- <a class="ifClosed" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/plus.gif" ></a>
- <a class="ifOpened" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/minus.gif" ></a>
- <a href="/p/wot-xvm/source/detail?spec=svn2817&r=2676">r2676</a>
- by pavlushko.m
- on Sep 22, 2013
- &nbsp; <a href="/p/wot-xvm/source/diff?spec=svn2817&r=2676&amp;format=side&amp;path=/trunk/release/l10n/de.xc&amp;old_path=/trunk/release/l10n/de.xc&amp;old=2638">Diff</a>
- <br>
- <pre class="ifOpened">l10n: Update be, de, fi. Fix ru.</pre>
- </div>
- 
- <div class="closed" style="margin-bottom:3px;" >
- <a class="ifClosed" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/plus.gif" ></a>
- <a class="ifOpened" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/minus.gif" ></a>
- <a href="/p/wot-xvm/source/detail?spec=svn2817&r=2638">r2638</a>
- by pavlushko.m
- on Sep 18, 2013
- &nbsp; <a href="/p/wot-xvm/source/diff?spec=svn2817&r=2638&amp;format=side&amp;path=/trunk/release/l10n/de.xc&amp;old_path=/trunk/release/l10n/de.xc&amp;old=2631">Diff</a>
- <br>
- <pre class="ifOpened">added Romanian language
-update Belarusian, Finnish and German
-translation.</pre>
- </div>
- 
- 
- <a href="/p/wot-xvm/source/list?path=/trunk/release/l10n/de.xc&start=2816">All revisions of this file</a>
+ <a href="/p/wot-xvm/source/list?path=/trunk/release/l10n/sk.xc&start=2814">All revisions of this file</a>
  </div>
  </div>
  <div class="round1"></div>
@@ -1325,10 +1280,10 @@ translation.</pre>
  <div id="fileinfo_bubble">
  <p>File info</p>
  
- <div>Size: 2425 bytes,
+ <div>Size: 2485 bytes,
  95 lines</div>
  
- <div><a href="//wot-xvm.googlecode.com/svn/trunk/release/l10n/de.xc">View raw file</a></div>
+ <div><a href="//wot-xvm.googlecode.com/svn/trunk/release/l10n/sk.xc">View raw file</a></div>
  </div>
  
  <div id="props">
@@ -1468,9 +1423,9 @@ translation.</pre>
  var codereviews;
  function revsOnLoadHandler() {
  // register our source container with the commenting code
- var paths = {'svn2817': '/trunk/release/l10n/de.xc'}
+ var paths = {'svn2817': '/trunk/release/l10n/sk.xc'}
  codereviews = CR_controller.setup(
- {"loggedInUserEmail":"Ded.Shalfey86@gmail.com","projectName":"wot-xvm","profileUrl":"/u/112245915657078372680/","projectHomeUrl":"/p/wot-xvm","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/9670661675484913303","relativeBaseUrl":"","assetHostPath":"https://ssl.gstatic.com/codesite/ph","domainName":null,"token":"b9L0AOaROO4gScguQ8U3d_dPUls:1381422687539"}, '', 'svn2817', paths,
+ {"projectName":"wot-xvm","loggedInUserEmail":"Ded.Shalfey86@gmail.com","token":"IP57B5jJYGsFQHf3S_MXcLVUwng:1381422650552","projectHomeUrl":"/p/wot-xvm","profileUrl":"/u/112245915657078372680/","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/9670661675484913303","assetHostPath":"https://ssl.gstatic.com/codesite/ph","domainName":null,"relativeBaseUrl":""}, '', 'svn2817', paths,
  CR_BrowseIntegrationFactory);
  
  codereviews.registerActivityListener(CR_ActivityType.REVEAL_DRAFT_PLATE, showPublishInstructions);
