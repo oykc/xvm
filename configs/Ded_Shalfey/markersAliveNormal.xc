@@ -114,14 +114,18 @@
         "fade": 2                       // время затухания в секундах
       }
     },
-    // Floating damage values for ally, player, squadman.
-    // Всплывающий урон для союзника, игрока, взводного.
+    // Floating damage values for ally.
+    // Всплывающий урон для союзника.
     "damageText": {
       "$ref": { "path":"damageText" }
     },
+		// Floating damage values for player.
+    // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" }
     },
+		// Floating damage values for squadman.
+    // Всплывающий урон для взводного.
     "damageTextSquadman": {
       "$ref": { "path":"damageText" }
     },
