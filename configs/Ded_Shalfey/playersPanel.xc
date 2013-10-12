@@ -50,7 +50,7 @@
         "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed.png' width='20' height='20'>",
         // Dead enemy.
         // Уничтоженный враг.
-        "dead": "<font face='XVMSymbol' size='20'><font color='#000000'>\u0022</font></font>", 
+        "dead": "<font face='XVMSymbol' size='20'><font color='#000000'>\u0022</font></font>",
         // Artillery specific values.
         // Специфичные значения для артиллерии.
         "artillery": {
@@ -101,6 +101,6 @@
       // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
       "vehicleFormatLeft": "<font face='Consolas' size='12' color='#FFFFFF'>{{kb:3}} {{rating}}</font>",
       "vehicleFormatRight": "<font face='Consolas' size='12' color='#FFFFFF'>{{kb:3}} {{rating}}</font>"
-    }	
+    }
   }
 }

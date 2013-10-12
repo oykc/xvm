@@ -309,7 +309,7 @@
       { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
       { "value": 15,   "color": ${"def.colorRating.unique"   } }
     ],
-    // Dynamic color by average number of spotted enemies per battle on current tank 
+    // Dynamic color by average number of spotted enemies per battle on current tank
     // Динамический цвет по среднему количеству засвеченных врагов за бой на текущем танке
     "tsb": [
       { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },

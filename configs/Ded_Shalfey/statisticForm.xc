@@ -35,7 +35,7 @@
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
     "formatLeftVehicle": "<font face='Consolas' size='12'><font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff:4}}</font> <font color='{{c:rating}}'>{{rating:3}}</font> |<font color='{{c:t-battles}}'>{{t-hb:3}}</font> <font color='{{c:t-rating}}'>{{t-rating:3}}</font></font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
-    // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).	
+    // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
     "formatRightVehicle": "<font face='Consolas' size='12'><font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff:4}}</font> <font color='{{c:rating}}'>{{rating:3}}</font> |<font color='{{c:t-battles}}'>{{t-hb:3}}</font> <font color='{{c:t-rating}}'>{{t-rating:3}}</font></font>"
   }
 }

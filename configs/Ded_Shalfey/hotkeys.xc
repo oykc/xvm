@@ -5,7 +5,7 @@
 {
   "hotkeys": {
     // onHold: false - take action by key click. True - while key is remains pressed.
-    // onHold: false - произвести действие по разовому нажатию клавиши. True - по удержанию.       
+    // onHold: false - произвести действие по разовому нажатию клавиши. True - по удержанию.
     // The only supported keys are:
     // Поддерживаются только клавиши:
     // "Backspace": 8,
@@ -24,10 +24,10 @@
     // "X": 88,
     // "F1": 112
     // "Caps Lock": 20
-    "minimapZoom": { 
+    "minimapZoom": {
       "enabled": true,
       "onHold": false,
-      "keyCode": 20 
+      "keyCode": 20
     }
   }
 }

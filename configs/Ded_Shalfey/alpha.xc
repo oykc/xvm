@@ -23,7 +23,7 @@
   },
   "alpha": {
     // Dynamic transparency by remaining health.
-    // Динамическая прозрачность по оставшемуся здоровью. 
+    // Динамическая прозрачность по оставшемуся здоровью.
     "hp": [
       { "value": 200,  "alpha": ${"alphaHP.very_low"     } },
       { "value": 400,  "alpha": ${"alphaHP.low"          } },

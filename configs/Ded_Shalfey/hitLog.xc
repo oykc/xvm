@@ -7,13 +7,13 @@
     // false - Disable.
     // false - отключить.
     "visible": true,
-    
+
     // Show enemy HP left by Alt press
     // Destroyed enemies and enemies HP gets updated only when it markers become visible.
     // Markers are visible only inside 1000m side square.
     // Square with 1000 meters side is game engine restriction. Maximum marker show distance.
     // Particular enemy data will not be updated while you cant see this enemy marker or its wreck.
-    
+
     // Показывать оставшееся HP врагов по нажатию Alt
     // Уничтоженные враги и вражеское HP обновляется только, когда маркеры становятся видимыми.
     // Маркеры видимы только в квадрате со стороной в 1000м.

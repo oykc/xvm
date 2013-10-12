@@ -1,6 +1,6 @@
 ﻿/**
- * Options for player statistics (only with xvm-stat).
- * Блок управлением статистикой (только с xvm-stat).
+ * Options for player statistics
+ * Блок управлением статистикой
  */
 {
   "rating": {
@@ -16,8 +16,8 @@
     // true - Enable downloading of data on opponents in the "fog of war".
     // true - включить загрузку данных по противникам в "тумане войны".
     "loadEnemyStatsInFogOfWar": true,
-    // true - Enable saving statistics to "xvm-stat.log" file.
-    // true - включить сохранение статистики в файл "xvm-stat.log".
-    "enableStatisticsLog": false
+    // true - Enable saving statistics to "XVM.log" file.
+    // true - включить сохранение статистики в файл "XVM.log".
+    "enableStatisticsLog": true
   }
 }

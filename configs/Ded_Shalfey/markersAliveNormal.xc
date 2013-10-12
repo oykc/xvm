@@ -119,12 +119,12 @@
     "damageText": {
       "$ref": { "path":"damageText" }
     },
-		// Floating damage values for player.
+    // Floating damage values for player.
     // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" }
     },
-		// Floating damage values for squadman.
+    // Floating damage values for squadman.
     // Всплывающий урон для взводного.
     "damageTextSquadman": {
       "$ref": { "path":"damageText" }
@@ -432,8 +432,8 @@
         "fade": 2
       }
     },
-    // Floating damage values for ally, player, squadman.
-    // Всплывающий урон для союзника, игрока, взводного.
+    // Floating damage values for ally.
+    // Всплывающий урон для союзника.
     "damageText": {
       "$ref": { "path":"damageText" },
       // Параметры тени
@@ -446,6 +446,8 @@
         "strength": 200                 // интенсивность
       }
     },
+    // Floating damage values for player.
+    // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" },
       // Параметры тени
@@ -458,6 +460,8 @@
         "strength": 400                 // интенсивность
       }
     },
+    // Floating damage values for squadman.
+    // Всплывающий урон для взводного.
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Параметры тени
@@ -468,7 +472,7 @@
         "distance": 0,                  // дистанция смещение
         "size": 6,                      // размер
         "strength": 200                 // интенсивность
-      }      
+      }
     },
     // Vehicle contour icon.
     // Контурная иконка танка.
@@ -513,56 +517,58 @@
       // Текстовое поле с названием танка.
       {
         "name": "Tank name",
-        "visible": true,
-        "x": 0,
-        "y": -37,
-        "alpha": 100,
-        "color": null,
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -37,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": null,                   //                        / Цвет.
         // Параметры шрифта
         "font": {
-          "name": "Comic Sans MS",
-          "size": 12,
-          "align": "center",
-          "bold": false,
-          "italic": false
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 12,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
         },
         // Параметры тени
         "shadow": {
-          "alpha": 50,
-          "color": "0x000000",
-          "angle": 45,
-          "distance": 1,
-          "size": 5,
-          "strength": 1320
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
         },
+        // Формат текста. См. описание макросов в readme-ru.txt
         "format": "{{vehicle}}{{turret}}"
       },
       // Text field with the remaining / maximum health.
       // Текстовое поле с оставшимся / максимальным здоровьем
       {
         "name": "Tank HP",
-        "visible": true,
-        "x": 0,
-        "y": -16,
-        "alpha": 100,
-        "color": "0xFFFFFF",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -16,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "0xFFFFFF",             //                        / Цвет.
         // Параметры шрифта
         "font": {
-          "name": "Comic Sans MS",
-          "size": 11,
-          "align": "center",
-          "bold": false,
-          "italic": false
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
         },
         // Параметры тени
         "shadow": {
-          "alpha": 50,
-          "color": "0x000000",
-          "angle": 45,
-          "distance": 1,
-          "size": 5,
-          "strength": 1320
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
         },
+        // Формат текста. См. описание макросов в readme-ru.txt
         "format": "{{hp}} / {{hp-max}}"
       },
       // Cross

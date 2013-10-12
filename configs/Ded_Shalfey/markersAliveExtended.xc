@@ -114,14 +114,18 @@
         "fade": 2                       //     время затухания в секундах
       }
     },
-    // Floating damage values for ally, player, squadman.
-    // Всплывающий урон для союзника, игрока, взводного.
+    // Floating damage values for ally.
+    // Всплывающий урон для союзника.
     "damageText": {
       "$ref": { "path":"damageText" }
     },
+    // Floating damage values for player.
+    // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" }
     },
+    // Floating damage values for squadman.
+    // Всплывающий урон для взводного.
     "damageTextSquadman": {
       "$ref": { "path":"damageText" }
     },
@@ -207,151 +211,118 @@
       // Текстовое поле с процентом оставшегося здоровья.
       {
         "name": "Percent of HP",
-        "visible": true,
-        "x": 0,
-        "y": -16,
-        "alpha": 100,
-        "color": "0xFFFFFF",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -16,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "0xFFFFFF",             //                        / Цвет.
+        // Параметры шрифта
         "font": {
-          "name": "Comic Sans MS",
-          "size": 11,
-          "align": "center",
-          "bold": true,
-          "italic": false
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": true,                  // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
         },
+        // Параметры тени
         "shadow": {
-          "alpha": 50,
-          "color": "0x000000",
-          "angle": 45,
-          "distance": 1,
-          "size": 5,
-          "strength": 1320
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
         },
-        "format": "{{hp-ratio}}\u0025" // \u0025 - percent symbol / символ процента
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{hp-ratio}}\u0025"   // \u0025 - percent symbol / символ процента
       },
-	  // текстовое поле с рейтингом
-            {
-              "name": "Общий рейтинг по всей технике",
-              "visible": true,
-              "x": 0,
-              "y": -48,
-              "alpha": 100,
-              "color": "0xFCFCFC",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "<font color='{{c:kb}}'>{{kb}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:rating}}'>{{rating}}</font>"
-            },
-      // текстовое поле с рейтингом
-            {
-              "name": "Количество боев на данной технике",
-              "visible": true,
-              "x": -28,
-              "y": 0,
-              "alpha": 100,
-              "color": "{{c:t-battles}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{t-battles}}"
-            },
-			// текстовое поле с рейтингом
-            {
-              "name": "Процент побед на данной технике",
-              "visible": true,
-              "x": 28,
-              "y": 0,
-              "alpha": 100,
-              "color": "{{c:t-rating}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{t-rating}}"
-            },
-			{
-              "name": "Эффективность игрока на текущем танке",
-              "visible": false,
-              "x": -43,
-              "y": 16,
-              "alpha": 100,
-              "color": "{{c:e}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{teff}} (?)"
-            },
-			{
-              "name": "Средний дамаг за бой для текущего танка",
-              "visible": false,
-              "x": 49,
-              "y": 16,
-              "alpha": 100,
-              "color": "{{c:tdb}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{tdb}} (dmg)"
-            }
+      // Text field a total rating of the entire technique
+      // Текстовое поле с общим рейтингом по всей технике
+      {
+        "name": "Overall Rating",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -48,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "0xFCFCFC",             //                        / Цвет.
+        // Параметры шрифта
+        "font": {
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
+        },
+        // Параметры тени
+        "shadow": {
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
+        },
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "<font color='{{c:kb}}'>{{kb}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:rating}}'>{{rating}}</font>"
+      },
+      // Text field with the number of fights on this technique
+      // Текстовое поле с количеством боев на данной технике
+      {
+        "name": "Number of fights on this technique",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": -28,                        // Position on the X axis / Положение по оси X.
+        "y": 0,                          // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "{{c:t-battles}}",      //                        / Цвет.
+        // Параметры шрифта
+        "font": {
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
+        },
+        // Параметры тени
+        "shadow": {
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
+        },
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{t-battles}}"
+      },
+      // Text field with a percentage of wins on this technique
+      // Текстовое поле с процентом побед на данной технике
+      {
+        "name": "Percentage of wins on this technique",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 28,                         // Position on the X axis / Положение по оси X.
+        "y": 0,                          // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "{{c:t-rating}}",       //                        / Цвет.
+        // Параметры шрифта
+        "font": {
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
+        },
+        // Параметры тени
+        "shadow": {
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
+        },
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{t-rating}}"
+      }
     ]
   },
   // Настройки для противников.
@@ -401,33 +372,39 @@
         "fade": 2
       }
     },
-    // Floating damage values for ally, player, squadman.
-    // Всплывающий урон для союзника, игрока, взводного.
+    // Floating damage values for ally.
+    // Всплывающий урон для союзника.
     "damageText": {
-            "$ref": { "path":"damageText" },
-		  "shadow": {                     //   параметры тени
-		  "alpha": 70,                    //     прозрачность
-		  "color": "0x000000",            //     цвет
-		  "angle": 45,                    //     угол смещения
-		  "distance": 1,                  //     дистанция смещение
-		  "size": 2,                      //     размер
-		  "strength": 200                 //     интенсивность
-		  }
-		  },
-          "damageTextPlayer": {
-            "$ref": { "path":"damageText" },
-		  "shadow": {                     //   параметры тени
-		  "alpha": 70,                    //     прозрачность
-		  "color": "0xFF1133",            //     цвет
-		  "angle": 45,                    //     угол смещения
-		  "distance": 0,                  //     дистанция смещение
-		  "size": 6,                      //     размер
-		  "strength": 400                 //     интенсивность
-		  }
-		  },
-          "damageTextSquadman": {
-            "$ref": { "path":"damageText" },
-            // Параметры тени
+      "$ref": { "path":"damageText" },
+      // Параметры тени
+      "shadow": {
+        "alpha": 70,                    //     прозрачность
+        "color": "0x000000",            //     цвет
+        "angle": 45,                    //     угол смещения
+        "distance": 1,                  //     дистанция смещение
+        "size": 2,                      //     размер
+        "strength": 200                 //     интенсивность
+      }
+    },
+    // Floating damage values for player.
+    // Всплывающий урон для игрока.
+    "damageTextPlayer": {
+      "$ref": { "path":"damageText" },
+      // Параметры тени
+      "shadow": {
+        "alpha": 70,                    //     прозрачность
+        "color": "0xFF1133",            //     цвет
+        "angle": 45,                    //     угол смещения
+        "distance": 0,                  //     дистанция смещение
+        "size": 6,                      //     размер
+        "strength": 400                 //     интенсивность
+      }
+    },
+    // Floating damage values for squadman.
+    // Всплывающий урон для взводного.
+    "damageTextSquadman": {
+      "$ref": { "path":"damageText" },
+      // Параметры тени
       "shadow": {
         "alpha": 70,                    // прозрачность
         "color": "0x00FFFF",            // цвет
@@ -435,8 +412,8 @@
         "distance": 0,                  // дистанция смещение
         "size": 6,                      // размер
         "strength": 200                 // интенсивность
-      }            
-          },
+      }
+    },
     // Vehicle contour icon.
     // Контурная иконка танка.
     "contourIcon": {
@@ -480,177 +457,147 @@
       // Текстовое поле с именем игрока.
       {
         "name": "Player name",
-        "visible": true,
-        "x": 0,
-        "y": -37,
-        "alpha": 100,
-        "color": null,
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -37,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": null,                   //                        / Цвет.
+        // Параметры шрифта
         "font": {
-          "name": "Comic Sans MS",
-          "size": 12,
-          "align": "center",
-          "bold": false,
-          "italic": false
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 12,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
         },
+        // Параметры тени
         "shadow": {
-          "alpha": 50,
-          "color": "0x000000",
-          "angle": 45,
-          "distance": 1,
-          "size": 5,
-          "strength": 1320
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
         },
+        // Формат текста. См. описание макросов в readme-ru.txt
         "format": "{{nick}}"
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
       {
         "name": "Percent of HP",
-        "visible": true,
-        "x": 0,
-        "y": -16,
-        "alpha": 100,
-        "color": "0xFFFFFF",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -16,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "0xFFFFFF",             //                        / Цвет.
+        // Параметры шрифта
         "font": {
-          "name": "Comic Sans MS",
-          "size": 11,
-          "align": "center",
-          "bold": true,
-          "italic": false
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": true,                  // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
         },
+        // Параметры тени
         "shadow": {
-          "alpha": 50,
-          "color": "0x000000",
-          "angle": 45,
-          "distance": 1,
-          "size": 5,
-          "strength": 1320
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
         },
+        // Формат текста. См. описание макросов в readme-ru.txt
         "format": "{{hp-ratio}}\u0025"
       },
-      // текстовое поле с рейтингом
-            {
-              "name": "Общий рейтинг по всей технике",
-              "visible": true,
-              "x": 0,
-              "y": -48,
-              "alpha": 100,
-              "color": "0xFCFCFC",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "<font color='{{c:kb}}'>{{kb}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:rating}}'>{{rating}}</font>"
-            },
-			// текстовое поле с рейтингом
-            {
-              "name": "Количество боев на данной технике",
-              "visible": true,
-              "x": -28,
-              "y": 0,
-              "alpha": 100,
-              "color": "{{c:t-battles}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{t-battles}}"
-            },
-			// текстовое поле с рейтингом
-            {
-              "name": "Процент побед на данной технике",
-              "visible": true,
-              "x": 28,
-              "y": 0,
-              "alpha": 100,
-              "color": "{{c:t-rating}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{t-rating}}"
-            },
-			{
-              "name": "Эффективность игрока на текущем танке",
-              "visible": false,
-              "x": -43,
-              "y": 16,
-              "alpha": 100,
-              "color": "{{c:e}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{teff}} (?)"
-            },
-			{
-              "name": "Средний дамаг за бой для текущего танка",
-              "visible": false,
-              "x": 49,
-              "y": 16,
-              "alpha": 100,
-              "color": "{{c:tdb}}",
-              "font": {
-                "name": "Comic Sans MS",
-                "size": 11,
-                "align": "center",
-                "bold": false,
-                "italic": false
-              },
-              "shadow": {
-                "alpha": 50,
-                "color": "0x000000",
-                "angle": 45,
-                "distance": 1,
-                "size": 5,
-                "strength": 1320
-              },
-              "format": "{{tdb}} (dmg)"
-            }
+      // Text field a total rating of the entire technique
+      // Текстовое поле с общим рейтингом по всей технике
+      {
+        "name": "Overall Rating",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 0,                          // Position on the X axis / Положение по оси X.
+        "y": -48,                        // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "0xFCFCFC",             //                        / Цвет.
+        // Параметры шрифта
+        "font": {
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
+        },
+        // Параметры тени
+        "shadow": {
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
+        },
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "<font color='{{c:kb}}'>{{kb}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:rating}}'>{{rating}}</font>"
+      },
+      // Text field with the number of fights on this technique
+      // Текстовое поле с количеством боев на данной технике
+      {
+        "name": "Number of fights on this technique",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": -28,                        // Position on the X axis / Положение по оси X.
+        "y": 0,                          // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "{{c:t-battles}}",      //                        / Цвет.
+        // Параметры шрифта
+        "font": {
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
+        },
+        // Параметры тени
+        "shadow": {
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
+        },
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{t-battles}}"
+      },
+      // Text field with a percentage of wins on this technique
+      // Текстовое поле с процентом побед на данной технике
+      {
+        "name": "Percentage of wins on this technique",
+        "visible": true,                 // false - disable        / не отображать.
+        "x": 28,                         // Position on the X axis / Положение по оси X.
+        "y": 0,                          // Position on the Y axis / Положение по оси Y.
+        "alpha": 100,                    // Opacity                / Прозрачность.
+        "color": "{{c:t-rating}}",       //                        / Цвет.
+        // Параметры шрифта
+        "font": {
+          "name": "Comic Sans MS",       // Font name              / Название
+          "size": 11,                    // Font size              / Размер
+          "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+          "bold": false,                 // True - bold            / Жирный.
+          "italic": false                // True - italic          / Курсив.
+        },
+        // Параметры тени
+        "shadow": {
+          "alpha": 50,                   // Opacity                / Прозрачность.
+          "color": "0x000000",           //                        / Цвет.
+          "angle": 45,                   // Offset angle           / Угол смещения.
+          "distance": 1,                 // Offset distance        / Дистанция смещения.
+          "size": 5,                     //                        / Размер.
+          "strength": 1320               // Intensity              / Интенсивность.
+        },
+        // Формат текста. См. описание макросов в readme-ru.txt
+        "format": "{{t-rating}}"
+      }
     ]
   }
 }
