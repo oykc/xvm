@@ -28,7 +28,7 @@
     "Last": "Последний",
 
     // Hp Left
-    "hpLeftTitle": "Осталось HP/Всего HP:",
+    "hpLeftTitle": "Панель HP:",
 
     // Capture
     "enemyBaseCapture": "Захват базы союзниками!",
