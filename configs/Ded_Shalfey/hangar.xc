@@ -50,7 +50,7 @@
         // Different colors depending on server responce time
         // Разные цвета в зависимости от времени отклика сервера
         "color": {
-          "great": "0xFFCC66", // Отличный
+          "great": "0x00EA66", // Отличный
           "good": "0xE5E4E1",  // Хороший
           "poor": "0x96948F",  // Так себе
           "bad": "0xD64D4D"    // Плохой
