@@ -16,7 +16,9 @@
     "Chance error": "Помилка розрахунку шансів",
     "Chance to win": "Шанс на перемогу",
     "global": "загальний",
-    "per-vehicle": "за технікою",
+    "per-vehicle": "по техніці",
+    "chanceExperimental": "exp",
+    "chanceBattleTier": "T",
 
     // Hitlog
     "attack": "атака",
@@ -40,47 +42,31 @@
 
     // BattleResults
     "Hit percent": "Відсоток влучень",
-    "Damage upon detecting": "Пошкодження за вашими розвідданними",
-    "Damage dealt": "Нанесені пошкодження",
+    "Damage (assisted / own)": "Пошкодження (за розвідданими / свої)",
 
     // TeamRenderers
-    "TeamRenderersHeaderTip": "Рейтинг xwn (або xeff).\nЩоб побачити більш детальну інформацію, наведіть курсор миші на значення рейтингу гравця.",
     "Friend": "Друг",
     "Ignored": "Ігнор",
-    "Load statistics": "Завантажити статистику",
-    "enabled": "увімкнено",
-    "disabled": "вимкнено",
-
-    // UserInfo
-    "UserInfoEHint": "Ефективність на танку.\nЗначення вказано на момент останнього оновлення статистики: \u0025DATE\u0025\nАктуальне значення на поточний момент - в детальній інформації за технікою.\nПравильність значень у колонці залежить від якості отриманих вихідних даних.",
-    "Data was updated at": "Дані були оновлені",
-    " to ": " до ",
-    "EFF": "РЕ",
-    "updated": "оновлено",
     "unknown": "невідомо",
-    "Avg level": "Сер. рівень",
-    "Spotted": "Засвіт",
-    "Defence": "Захист",
-    "Capture": "Захоплення",
-    "player (average / top)": "гравець (середній / топ)",
-    "Spec dmg": "Пит. дамаг",
-
-    // UserInfo - filters
-    "Filter": "Фільтр",
-    "All tanks": "Всі танки",
-    "Show all tanks in the game": "Показати всі танки в грі",
-    "Player tanks": "Танки гравця",
-    "Show all tanks played": "Показати всі танки, на яких грав",
-    "In hangar": "В ангарі",
-    "Show only tanks in own hangar": "Показати тільки танки у своєму ангарі",
-
-    // UserInfo - buttons
-    "Level": "Рівень",
-    "Type": "Тип",
-    "Nation": "Нація",
-    "Name": "Назва",
     "Fights": "Боїв",
     "Wins": "Перемог",
+    "Data was updated at": "Дані були оновлені",
+    "Load statistics": "Завантажити статистику",
+
+    // UserInfo
+    "Summary": "Загальні результати",
+    "Avg level": "Сер. рівень",
+    "WN6": "WN6",
+    "EFF": "РЕ",
+    "updated": "оновлено",
+    " to ": " до ",
+    "avg": "сер.",
+    "top": "топ",
+    "draws": "нічиїх",
+    "Specific damage (Avg dmg / HP)": "Пит. пошкодж. (сер. пошкодж. / міцність)",
+    "Capture points": "Балів захоплення",
+    "Defence points": "Балів захисту",
+    "Filter": "Фільтр",
 
     // Crew
     "PutOwnCrew": "Рідний екіпаж",
@@ -96,6 +82,7 @@
     "france": "Франція",
     "uk": "Великобританія",
     "china": "Китай",
+    "japan": "Японія",
     "HT": "ВТ",
     "MT": "СТ",
     "LT": "ЛТ",
