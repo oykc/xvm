@@ -23,8 +23,8 @@
       "name": "Comic Sans MS",        // Font name      / Название
       "size": 13,                     // Font size      / Размер
       "align": "center",              // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
-      "bold": false,                  // True - bold    / Жирный.
-      "italic": false                 // True - italic  / Курсив.
+      "bold": true,                  // True - bold    / Жирный.
+      "italic": true                 // True - italic  / Курсив.
     },
     // Параметры тени.
     "shadow": {
@@ -119,9 +119,9 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002B</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002C</font>"
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
@@ -133,9 +133,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002B</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002C</font>"
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>"
     },
     // Vehicle contour icon.
     // Контурная иконка танка.
@@ -240,25 +240,25 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002B</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002C</font>"
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002B</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002C</font>",
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>",
       // Параметры тени
       "shadow": {
         "alpha": 70,                  // прозрачность
         "color": "0xFF1133",          // цвет
         "angle": 45,                  // угол смещения
         "distance": 0,                // дистанция смещение
-        "size": 4,                    // размер
+        "size": 2,                    // размер
         "strength": 200               // интенсивность
       }
     },
@@ -267,9 +267,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002B</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}  <font face='XVMSymbol' size='32'>\u002C</font>",
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>",
       // Параметры тени
       "shadow": {
         "alpha": 50,                    // прозрачность

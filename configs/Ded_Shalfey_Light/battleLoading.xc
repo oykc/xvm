@@ -7,7 +7,7 @@
     // Format of clock on the Battle Loading Screen.
     // Формат часов на экране загрузки боя.
     // http://php.net/date
-    "clockFormat": "H:i ДШ_v9.2b3.6",
+    "clockFormat": "H:i ДШ_v9.2b3.7",
     // true - Enable display of "chance to win". Read more: http://www.koreanrandom.com/forum/topic/1663-/
     // true - включить отображение шансов на победу. Прочитать подробней: http://www.koreanrandom.com/forum/topic/1663-/
     "showChances": true,
@@ -47,15 +47,15 @@
     },
     // Display format for the left panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatLeftNick": "<font face='$TextFont' size='12'><font color='#FFFFFF'>{{name}}</font> <font color='#FF5500'>{{clannb}}</font></font>",
+    "formatLeftNick": "<font face='$TextFont' size='12' color='#FFFFFF'>{{name}}{{clan}}</font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatRightNick": "<font face='$TextFont' size='12'><font color='#FF5500'>{{clannb}}</font> <font color='#FFFFFF'>{{name}}</font></font>",
+    "formatRightNick": "<font face='$TextFont' size='12' color='#FFFFFF'>{{name}}{{clan}}</font>",
     // Display format for the left panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatLeftVehicle": "<font face='Consolas' size='11'><font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff:4}}</font> <font color='{{c:rating}}'>{{rating:3}}</font></font>",
+    "formatLeftVehicle": "<font color='#FF5500'>{{vehicle}}</font><font face='Consolas' size='13'> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff:4}}</font> <font color='{{c:rating}}'>{{rating:3}}</font></font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatRightVehicle": "<font face='Consolas' size='11'><font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff:4}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>"
+    "formatRightVehicle": "<font face='Consolas' size='13'><font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff:4}}</font> <font color='{{c:rating}}'>{{rating:3}}</font> </font><font color='#FF5500'>{{vehicle}}</font>"
   }
 }

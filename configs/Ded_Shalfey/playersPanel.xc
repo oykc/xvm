@@ -16,7 +16,7 @@
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
     "clanIcon": {
-      "show": true,
+      "show": false,
       "x": 82,
       "y": 3,
       "xr": 82,
@@ -35,7 +35,7 @@
       "enabled": true,
       // Offset relative to level icon (by X, Y).
       // Смещение относительно иконки уровня танка (по X, Y).
-      "Xoffset": -58,
+      "Xoffset": -38,
       "Yoffset": -7,
       // Формат.
       "format": {
@@ -69,23 +69,23 @@
       "width": 90,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font face='Consolas' size='13' color='#FFFFFF'>{{rating}}</font> | <font face='$TextFont' size='12' color='{{c:eff}}'>{{nick}}</font>",
+      "formatLeft": "<font face='$TextFont' size='12' color='{{c:eff}}'> {{nick}}</font><font face='Consolas' size='12'> </font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font face='$TextFont' size='12' color='{{c:eff}}'>{{nick}}</font> | <font face='Consolas' size='13' color='#FFFFFF'>{{rating}}</font>"
+      "formatRight": "<font face='Consolas' size='12'> </font><font face='$TextFont' size='12' color='{{c:eff}}'>{{nick}} </font>"
     },
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
     "medium2": {
       // Width of the vehicle name column, 0-250. Default is 65.
       // Ширина поля названия танка, 0-250. По умолчанию: 65.
-      "width": 130,
+      "width": 70,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font face='Consolas' size='13'>WN6 - <font color='{{c:xwn}}'>{{xwn}}</font>  РЭ - <font color='{{c:xeff}}'>{{xeff}}</font></font>",
+      "formatLeft": "<font color='{{c:rating}}'>{{vehicle}}</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font face='Consolas' size='13'>WN6 - <font color='{{c:xwn}}'>{{xwn}}</font>  РЭ - <font color='{{c:xeff}}'>{{xeff}}</font></font>"
+      "formatRight": "<font color='{{c:rating}}'>{{vehicle}}</font>"
     },
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
@@ -95,12 +95,12 @@
       "width": 75,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
-      "nickFormatLeft": "<font color='{{c:eff}}'>{{nick}}</font>",
-      "nickFormatRight": "<font color='{{c:eff}}'>{{nick}}</font>",
+      "nickFormatLeft": "<font face='$TextFont' size='12' color='{{c:eff}}'>{{nick}}</font><font face='Consolas' size='12'> </font>",
+      "nickFormatRight": "<font face='Consolas' size='12'> </font><font face='$TextFont' size='12' color='{{c:eff}}'>{{nick}}</font>",
       // Display format for vehicle name (macros allowed, see readme-en.txt).
       // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
-      "vehicleFormatLeft": "<font face='Consolas' size='12' color='#FFFFFF'>{{kb:3}} {{rating}}</font>",
-      "vehicleFormatRight": "<font face='Consolas' size='12' color='#FFFFFF'>{{kb:3}} {{rating}}</font>"
+      "vehicleFormatLeft": "<textformat tabstops='[25]'><font color='{{c:kb}}'>{{kb:3}}</font><tab><font color='{{c:rating}}'>{{rating}}</font></textformat>",
+      "vehicleFormatRight": "<textformat tabstops='[25]'><font color='{{c:kb}}'>{{kb:3}}</font><tab><font color='{{c:rating}}'>{{rating}}</font></textformat>"
     }
   }
 }

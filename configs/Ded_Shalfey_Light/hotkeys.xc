@@ -25,7 +25,7 @@
     // "F1": 112
     // "Caps Lock": 20
     "minimapZoom": {
-      "enabled": true,
+      "enabled": false,
       "onHold": false,
       "keyCode": 20
     }

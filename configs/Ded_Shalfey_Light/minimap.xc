@@ -39,16 +39,16 @@
     // Линии на миникарте.
     "lines": ${"minimapLines.xc":"lines"},
     "square" : { // Квадрат со стороной 1000m. Показывает границы максимальной отрисовка юнитов.
-      "enabled": false,
+      "enabled": true,
       // Show square if using artillery\SPG vehicle.
       // Показывать ли квадрат в случае артиллерии.
       "artilleryEnabled": false,
       // Толщина линии.
-      "thickness": 0.5,
+      "thickness": 0.2,
       // Прозрачность.
-      "alpha": 100,
+      "alpha": 90,
       // Цвет.
-      "color": "0xFF0000"
+      "color": "0xFFFFFF"
     }
   }
 }

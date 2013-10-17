@@ -24,8 +24,8 @@
     // "enabled": false - выключен; "distance" - дистанция; "thickness" - толщина; "alpha" - прозрачность; "color" - цвет.
     "major": [
     // 445 meters - maximum reveal distance. / 445 метров - максимальная дистанция засвета.
-    { "enabled": true, "distance": 445, "thickness": 0.5, "alpha": 90, "color": "0xFFCC66" },
-    { "enabled": true, "distance":  50, "thickness": 0.5, "alpha": 90, "color": "0xFFFFFF" }
+    { "enabled": true, "distance": 445, "thickness": 0.05, "alpha": 90,  "color": "0xFFFFFF" },
+    { "enabled": true, "distance":  50, "thickness": 0.05, "alpha": 100, "color": "0xFFFFFF" }
     ],
     // Special circles dependent on vehicle type.
     // Many configuration lines for the same vehicle make many circles.

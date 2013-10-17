@@ -20,7 +20,7 @@
     "color": null,
     // Параметры шрифта.
     "font": {
-      "name": "Comic Sans MS",        // Font name      / Название
+      "name": "Arial",        // Font name      / Название
       "size": 13,                     // Font size      / Размер
       "align": "center",              // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
       "bold": true,                   // True - bold    / Жирный.
@@ -31,7 +31,7 @@
       "alpha": 70,                    // Opacity          / Прозрачность.
       "color": "0x000000",            //                    Цвет.
       "angle": 45,                    // Offset angle     / Угол смещения.
-      "distance": 1,                  // Offset distance  / Дистанция смещения.
+      "distance": 0,                  // Offset distance  / Дистанция смещения.
       "size": 6,                      //                    Размер.
       "strength": 400                 // Intensity        / Интенсивность.
     },
@@ -269,7 +269,7 @@
       // Текстовое поле с количеством боев на данной технике
       {
         "name": "Number of fights on this technique",
-        "visible": false,                // false - disable        / не отображать.
+        "visible": false,                 // false - disable        / не отображать.
         "x": -28,                        // Position on the X axis / Положение по оси X.
         "y": 0,                          // Position on the Y axis / Положение по оси Y.
         "alpha": 100,                    // Opacity                / Прозрачность.
@@ -381,8 +381,8 @@
         "alpha": 70,                    //     прозрачность
         "color": "0x000000",            //     цвет
         "angle": 45,                    //     угол смещения
-        "distance": 1,                  //     дистанция смещение
-        "size": 2,                      //     размер
+        "distance": 0,                  //     дистанция смещение
+        "size": 4,                      //     размер
         "strength": 200                 //     интенсивность
       }
     },

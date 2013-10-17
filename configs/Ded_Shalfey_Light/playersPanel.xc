@@ -50,14 +50,14 @@
         "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed.png' width='20' height='20'>",
         // Dead enemy.
         // Уничтоженный враг.
-        "dead": "<font face='XVMSymbol' size='20'><font color='#000000'>\u0022</font></font>",
+        "dead": "",
         // Artillery specific values.
         // Специфичные значения для артиллерии.
         "artillery": {
           "neverSeen": "",
           "lost": "<img src='xvmres://Ded_Shalfey/img/lost.png' width='20' height='20'>",
           "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed.png' width='20' height='20'>",
-          "dead": "<font face='XVMSymbol' size='20'><font color='#000000'>\u0022</font></font>"
+          "dead": ""
         }
       }
     },
