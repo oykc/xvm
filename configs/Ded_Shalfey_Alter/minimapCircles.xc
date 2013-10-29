@@ -229,7 +229,7 @@
     { "gb25_loyd_carrier":              { "$ref": { "path": "seeCircle" }, "distance": 320 } },
     { "gb39_universal_carrierqf2":      { "$ref": { "path": "seeCircle" }, "distance": 320 } },
     { "gb58_cruiser_mk_iii":            { "$ref": { "path": "seeCircle" }, "distance": 320 } },
-    { "GB76_Mk_VIC":                    { "$ref": { "path": "seeCircle" }, "distance": 300 } },
+    { "gb76_mk_vic":                    { "$ref": { "path": "seeCircle" }, "distance": 300 } },
 
     // china 2
     { "ch07_vickers_mke_type_bt26":     { "$ref": { "path": "seeCircle" }, "distance": 310 } },
@@ -309,7 +309,7 @@
     { "pziii_training":       { "$ref": { "path": "seeCircle" }, "distance": 330 } },
     { "sturmpanzer_ii":       { "$ref": { "path": "seeCircle" }, "distance": 340 } },
     { "vk2001db":             { "$ref": { "path": "seeCircle" }, "distance": 330 } },
-    { "Marder_III":           { "$ref": { "path": "seeCircle" }, "distance": 360 } },
+    { "marder_iii":           { "$ref": { "path": "seeCircle" }, "distance": 360 } },
 
     // usa 4
     { "m3_grant":             { "$ref": { "path": "seeCircle" }, "distance": 320 } },
@@ -358,7 +358,7 @@
     { "t_25":                 { "$ref": { "path": "seeCircle" }, "distance": 320 } },
     { "vk1602":               { "$ref": { "path": "seeCircle" }, "distance": 380 } },
     { "vk3001h":              { "$ref": { "path": "seeCircle" }, "distance": 360 } },
-    { "Pz_Sfl_IVc":           { "$ref": { "path": "seeCircle" }, "distance": 380 } },
+    { "pz_sfl_ivc":           { "$ref": { "path": "seeCircle" }, "distance": 380 } },
 
     // usa 5
     { "m10_wolverine":        { "$ref": { "path": "seeCircle" }, "distance": 370 } },
@@ -416,7 +416,7 @@
     { "vk3002db_v1":          { "$ref": { "path": "seeCircle" }, "distance": 370 } },
     { "vk3002m":              { "$ref": { "path": "seeCircle" }, "distance": 370 } },
     { "vk3601h":              { "$ref": { "path": "seeCircle" }, "distance": 370 } },
-    { "Nashorn":              { "$ref": { "path": "seeCircle" }, "distance": 390 } },
+    { "nashorn":              { "$ref": { "path": "seeCircle" }, "distance": 390 } },
 
     // usa 6
     { "m18_hellcat":                   { "$ref": { "path": "seeCircle" }, "distance": 370 } },
@@ -528,7 +528,7 @@
     { "pzvib_tiger_ii":                  { "$ref": { "path": "seeCircle" }, "distance": 390 } },
     { "pzvib_tiger_ii_training":         { "$ref": { "path": "seeCircle" }, "distance": 400 } },
     { "vk4502a":                         { "$ref": { "path": "seeCircle" }, "distance": 390 } },
-    { "RhB_Waffentrager":                { "$ref": { "path": "seeCircle" }, "distance": 400 } },
+    { "rhb_waffentrager":                { "$ref": { "path": "seeCircle" }, "distance": 400 } },
 
     // usa 8
     { "m40m43":                 { "$ref": { "path": "seeCircle" }, "distance": 380 } },
@@ -582,7 +582,7 @@
     { "jagdtiger":              { "$ref": { "path": "seeCircle" }, "distance": 390 } },
     { "pro_ag_a":               { "$ref": { "path": "seeCircle" }, "distance": 400 } },
     { "vk4502p":                { "$ref": { "path": "seeCircle" }, "distance": 400 } },
-    { "Waffentrager_IV":        { "$ref": { "path": "seeCircle" }, "distance": 410 } },
+    { "waffentrager_iv":        { "$ref": { "path": "seeCircle" }, "distance": 410 } },
 
     // usa 9
     { "m103":                   { "$ref": { "path": "seeCircle" }, "distance": 390 } },
@@ -628,7 +628,7 @@
     { "leopard1":               { "$ref": { "path": "seeCircle" }, "distance": 410 } },
     { "maus":                   { "$ref": { "path": "seeCircle" }, "distance": 400 } },
     { "vk7201":                 { "$ref": { "path": "seeCircle" }, "distance": 400 } },
-    { "Waffentrager_E100":      { "$ref": { "path": "seeCircle" }, "distance": 420 } },
+    { "waffentrager_e100":      { "$ref": { "path": "seeCircle" }, "distance": 420 } },
 
     // usa 10
     { "m48a1":                  { "$ref": { "path": "seeCircle" }, "distance": 420 } },
