@@ -215,7 +215,7 @@
     { "t2_lt":                { "$ref": { "path": "seeCircle" }, "distance": 260 } },
     { "t2_med":               { "$ref": { "path": "seeCircle" }, "distance": 320 } },
     { "t57":                  { "$ref": { "path": "seeCircle" }, "distance": 320 } },
-    { "T7_Combat_Car":        { "$ref": { "path": "seeCircle" }, "distance": 280 } },
+    { "t7_combat_car":        { "$ref": { "path": "seeCircle" }, "distance": 280 } },
 
     // france 2
     { "d1":                   { "$ref": { "path": "seeCircle" }, "distance": 300 } },
@@ -477,7 +477,7 @@
     { "pzvi":                   { "$ref": { "path": "seeCircle" }, "distance": 380 } },
     { "pzvi_tiger_p":           { "$ref": { "path": "seeCircle" }, "distance": 380 } },
     { "vk3002db":               { "$ref": { "path": "seeCircle" }, "distance": 380 } },
-    { "Pz_Sfl_V":               { "$ref": { "path": "seeCircle" }, "distance": 400 } },
+    { "sturer_emil":               { "$ref": { "path": "seeCircle" }, "distance": 400 } },
 
     // usa 7
     { "m12":                    { "$ref": { "path": "seeCircle" }, "distance": 370 } },

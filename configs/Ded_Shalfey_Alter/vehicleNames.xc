@@ -110,7 +110,7 @@
     "germany:Pz_II_AusfG": {"name": null, "short": null},
     "germany:Pz_Sfl_IVb": {"name": null, "short": null},
     "germany:Pz_Sfl_IVc": {"name": null, "short": null},
-    "germany:Pz_Sfl_V": {"name": null, "short": null},
+    "germany:Sturer_Emil": {"name": null, "short": null},
     "germany:Pz35t": {"name": null, "short": null},
     "germany:Pz38_NA": {"name": null, "short": null},
     "germany:Pz38t": {"name": null, "short": null},

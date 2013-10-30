@@ -54,7 +54,7 @@
 
     // Config description.
     // Описание конфига.
-    "description": "Version 9.2 beta3.8 Alternativ",
+    "description": "Version 9.2 beta3.8 Alternative",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "30.10.2013",
+    "date": "31.10.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
