@@ -349,6 +349,7 @@
     "ussr:T_70": {"name": null, "short": null},
     "ussr:T80": {"name": null, "short": null},
     "ussr:Tetrarch_LL": {"name": null, "short": null},
-    "ussr:Valentine_LL": {"name": null, "short": null}
+    "ussr:Valentine_LL": {"name": null, "short": null},
+    "japan:Chi_Nu_Kai": {"name": null, "short": null}
   }
 }
