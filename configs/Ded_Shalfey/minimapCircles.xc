@@ -477,7 +477,7 @@
     { "pzvi":                   { "$ref": { "path": "seeCircle" }, "distance": 380 } },
     { "pzvi_tiger_p":           { "$ref": { "path": "seeCircle" }, "distance": 380 } },
     { "vk3002db":               { "$ref": { "path": "seeCircle" }, "distance": 380 } },
-    { "sturer_emil":               { "$ref": { "path": "seeCircle" }, "distance": 400 } },
+    { "sturer_emil":            { "$ref": { "path": "seeCircle" }, "distance": 400 } },
 
     // usa 7
     { "m12":                    { "$ref": { "path": "seeCircle" }, "distance": 370 } },
