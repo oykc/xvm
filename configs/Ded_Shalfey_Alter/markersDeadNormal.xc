@@ -20,9 +20,9 @@
     "color": null,
     // Параметры шрифта.
     "font": {
-      "name": "PT Sans",        // Font name      / Название
-      "size": 13,                     // Font size      / Размер
-      "align": "center",              // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
+      "name": "Consolas",            // Font name      / Название
+      "size": 14,                    // Font size      / Размер
+      "align": "center",             // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
       "bold": true,                  // True - bold    / Жирный.
       "italic": true                 // True - italic  / Курсив.
     },
