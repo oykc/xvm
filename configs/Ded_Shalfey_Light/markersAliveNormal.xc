@@ -20,7 +20,7 @@
     "color": null,
     // Параметры шрифта.
     "font": {
-      "name": "Arial",        // Font name      / Название
+      "name": "Arial",                // Font name      / Название
       "size": 13,                     // Font size      / Размер
       "align": "center",              // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
       "bold": true,                   // True - bold    / Жирный.
