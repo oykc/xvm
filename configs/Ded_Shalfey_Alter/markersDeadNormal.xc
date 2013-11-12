@@ -119,9 +119,9 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>"
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002C</font>"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
@@ -133,9 +133,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>"
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002C</font>"
     },
     // Vehicle contour icon.
     // Контурная иконка танка.
@@ -240,18 +240,18 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>"
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002C</font>"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>",
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002C</font>",
       // Параметры тени
       "shadow": {
         "alpha": 70,                  // прозрачность
@@ -267,9 +267,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>Готов</font>",
+      "damageMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<font face='Wingdings' size='18'>ь</font><font face='Consolas' size='14'>{{l10n:blownUp}}</font>",
+      "blowupMessage": "<font face='Wingdings' size='18'>ь</font>Готов\n-{{dmg}} <font face='XVMSymbol' size='14'>\u002C</font>",
       // Параметры тени
       "shadow": {
         "alpha": 50,                    // прозрачность
