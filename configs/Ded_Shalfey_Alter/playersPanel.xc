@@ -44,10 +44,10 @@
         "neverSeen": "",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
-        "lost": "<img src='xvmres://Ded_Shalfey/img/lost.png' width='20' height='20'>",
+        "lost": "<img src='xvmres://Ded_Shalfey/img/lost2.png' width='20' height='20'>",
         // Enemy currently revealed at minimap.
         // Виден на миникарте прямо сейчас.
-        "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed.png' width='20' height='20'>",
+        "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed2.png' width='20' height='20'>",
         // Dead enemy.
         // Уничтоженный враг.
         "dead": "<font face='XVMSymbol' size='20'><font color='#000000'>\u0022</font></font>",
@@ -55,8 +55,8 @@
         // Специфичные значения для артиллерии.
         "artillery": {
           "neverSeen": "",
-          "lost": "<img src='xvmres://Ded_Shalfey/img/lost.png' width='20' height='20'>",
-          "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed.png' width='20' height='20'>",
+          "lost": "<img src='xvmres://Ded_Shalfey/img/lost2.png' width='20' height='20'>",
+          "revealed": "<img src='xvmres://Ded_Shalfey/img/revealed2.png' width='20' height='20'>",
           "dead": "<font face='XVMSymbol' size='20'><font color='#000000'>\u0022</font></font>"
         }
       }
