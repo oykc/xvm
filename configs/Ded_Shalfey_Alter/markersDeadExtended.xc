@@ -119,9 +119,9 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-ally.png' width='42' height='31'>-\n{{dmg}}",
+      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-ally.png' width='42' height='31'>\n-{{dmg}}",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-ally.png' width='42' height='43'>-\n{{dmg}}"
+      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-ally.png' width='42' height='43'>\n-{{dmg}}"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
@@ -133,9 +133,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-squad.png' width='42' height='31'>-\n{{dmg}}",
+      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-squad.png' width='42' height='31'>\n-{{dmg}}",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-squad.png' width='42' height='43'>-\n{{dmg}}"
+      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-squad.png' width='42' height='43'>\n-{{dmg}}"
     },
     // Vehicle contour icon.
     // Контурная иконка танка.
@@ -291,18 +291,18 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-emy.png' width='42' height='31'>-\n{{dmg}}",
+      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-emy.png' width='42' height='31'>\n-{{dmg}}",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-emy.png' width='42' height='43'>-\n{{dmg}}"
+      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-emy.png' width='42' height='43'>\n-{{dmg}}"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-my.png' width='42' height='31'>-\n{{dmg}}",
+      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-my.png' width='42' height='31'>\n-{{dmg}}",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-my.png' width='42' height='43'>-\n{{dmg}}",
+      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-my.png' width='42' height='43'>\n-{{dmg}}",
       // Параметры тени
       "shadow": {
         "alpha": 70,                  // прозрачность
@@ -318,9 +318,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-squad.png' width='42' height='31'>-\n{{dmg}}",
+      "damageMessage": "<img src='xvmres://Ded_Shalfey/img/kill-squad.png' width='42' height='31'>\n-{{dmg}}",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-squad.png' width='42' height='43'>-\n{{dmg}}",
+      "blowupMessage": "<img src='xvmres://Ded_Shalfey/img/blownUp-squad.png' width='42' height='43'>\n-{{dmg}}",
       // Параметры тени
       "shadow": {
         "alpha": 50,                    // прозрачность
