@@ -27,7 +27,7 @@
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.64",
+  "editorVersion": "0.68",
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
@@ -54,7 +54,7 @@
 
     // Config description.
     // Описание конфига.
-    "description": "Version 9.2 beta4.0 Alternative",
+    "description": "Version 9.2.5 Alternative",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "19.12.2013",
+    "date": "01.01.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
