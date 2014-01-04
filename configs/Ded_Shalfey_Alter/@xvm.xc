@@ -54,7 +54,7 @@
 
     // Config description.
     // Описание конфига.
-    "description": "Version 9.2.5 Alternative",
+    "description": "Version 9.2.6 Alternative",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "01.01.2014",
+    "date": "04.01.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.

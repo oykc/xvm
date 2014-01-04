@@ -7,7 +7,7 @@
     // Format of clock on the Battle Loading Screen.
     // Формат часов на экране загрузки боя.
     // http://php.net/date
-    "clockFormat": "H:i ДШ_v9.2.5",
+    "clockFormat": "H:i ДШ_v9.2.6",
     // true - Enable display of "chance to win". Read more: http://www.koreanrandom.com/forum/topic/1663-/
     // true - включить отображение шансов на победу. Прочитать подробней: http://www.koreanrandom.com/forum/topic/1663-/
     "showChances": true,
