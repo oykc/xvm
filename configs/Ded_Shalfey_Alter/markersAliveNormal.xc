@@ -43,7 +43,7 @@
     "maxRange": 90,
     // Text for normal damage (see description of macros in the readme-en.txt).
     // Текст при обычном уроне (см. описание макросов в readme-ru.txt).
-    "damageMessage": "{{dmg}}",
+    "damageMessage": "{{dmg}}<img src='xvmres://Ded_Shalfey/img/firemark/{{dmg-kind}}.png' width='36' height='31'>",
     // Text for ammo rack explosion (see description of macros in the readme-en.txt).
     // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt).
     "blowupMessage": "{{l10n:blownUp}}"
