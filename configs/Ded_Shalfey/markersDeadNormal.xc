@@ -20,11 +20,11 @@
     "color": null,
     // Параметры шрифта.
     "font": {
-      "name": "Consolas",             // Font name      / Название
-      "size": 14,                     // Font size      / Размер
+      "name": "Arial",                // Font name      / Название
+      "size": 13,                     // Font size      / Размер
       "align": "center",              // Text alignment (left, center, right) /   Выравнивание текста (left, center, right)
       "bold": true,                   // True - bold    / Жирный.
-      "italic": true                  // True - italic  / Курсив.
+      "italic": false                 // True - italic  / Курсив.
     },
     // Параметры тени.
     "shadow": {
@@ -119,9 +119,9 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002B</font>",
+      "damageMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002C</font>"
+      "blowupMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002C</font>"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
@@ -133,9 +133,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002B</font>",
+      "damageMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002C</font>"
+      "blowupMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002C</font>"
     },
     // Vehicle contour icon.
     // Контурная иконка танка.
@@ -240,18 +240,18 @@
     "damageText": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002B</font>",
+      "damageMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002C</font>"
+      "blowupMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002C</font>"
     },
     // Floating damage values for player.
     // Всплывающий урон для игрока.
     "damageTextPlayer": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002B</font>",
+      "damageMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002C</font>",
+      "blowupMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002C</font>",
       // Параметры тени
       "shadow": {
         "alpha": 70,                  // прозрачность
@@ -267,9 +267,9 @@
     "damageTextSquadman": {
       "$ref": { "path":"damageText" },
       // Текст при обычном уроне (см. описание макросов в readme-ru.txt)
-      "damageMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002B</font>",
+      "damageMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002B</font>",
       // Текст при взрыве боеукладки (см. описание макросов в readme-ru.txt)
-      "blowupMessage": "{{dmg}}<font face='XVMSymbol' size='14'>\u002C</font>",
+      "blowupMessage": "{{dmg}} <font face='XVMSymbol' size='24'>\u002C</font>",
       // Параметры тени
       "shadow": {
         "alpha": 50,                    // прозрачность
