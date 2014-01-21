@@ -10,7 +10,7 @@
     "visible": true,
     // Axis field coordinates
     // Положение поля по осям
-    "x": 0,
+    "x": 18,
     "y": -90,
     // Opacity (dynamic transparency allowed, see readme-en.txt).
     // Прозрачность (допускается использование динамической прозрачности, см. readme-ru.txt)
@@ -37,7 +37,7 @@
     },
     // Rising speed of displayed damage (float up speed).
     // Время отображения отлетающего урона.
-    "speed": 3,
+    "speed": 2,
     // Maximimum distance of target for which damage rises.
     // Расстояние, на которое отлетает урон.
     "maxRange": 90,
