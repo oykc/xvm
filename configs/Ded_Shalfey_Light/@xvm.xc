@@ -54,7 +54,7 @@
 
     // Config description.
     // Описание конфига.
-    "description": "Version 9.2.6 Light",
+    "description": "Version 9.2.7 Light",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
