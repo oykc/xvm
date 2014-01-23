@@ -15,10 +15,10 @@
     // Win chance
     "Chance error": "Chance error",
     "Chance to win": "Chance to win",
-    "global": "global",
-    "per-vehicle": "per-vehicle",
-    "chanceExperimental": "exp",
-    "chanceBattleTier": "T",
+    //"global": "global",
+    //"per-vehicle": "per-vehicle",
+    "chanceLive": "For alive",
+    "chanceBattleTier": "Battle tier",
 
     // Hitlog
     "attack": "attack",
@@ -58,6 +58,7 @@
     "Summary": "Summary",
     "Avg level": "Avg level",
     "WN6": "WN6",
+    "WN8": "WN8",
     "EFF": "EFF",
     "updated": "updated",
     " to ": " to ",

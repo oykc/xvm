@@ -62,7 +62,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "22.01.2014",
+    "date": "23.01.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.

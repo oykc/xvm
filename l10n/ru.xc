@@ -14,11 +14,11 @@
 
     // Win chance
     "Chance error": "Ошибка расчета шансов",
-    "Chance to win": "Шанс на победу",
-    "global": "общий",
-    "per-vehicle": "по технике",
-    "chanceExperimental": "exp",
-    "chanceBattleTier": "T",
+    "Chance to win": "Шансы на победу",
+    //"global": "общий",
+    //"per-vehicle": "по технике",
+    "chanceLive": "Для живых",
+    "chanceBattleTier": "Уровень боя",
 
     // Hitlog
     "attack": "атака",
@@ -58,6 +58,7 @@
     "Summary": "Общие результаты",
     "Avg level": "Средний уровень",
     "WN6": "WN6",
+    "WN8": "WN8",
     "EFF": "РЭ",
     "updated": "обновлено",
     " to ": " до ",
